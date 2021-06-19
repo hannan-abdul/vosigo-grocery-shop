@@ -1,0 +1,30 @@
+.categories-section-card{
+    background-color: #EDF0F5;
+    padding: 30px;
+}
+.catagory-card{
+    box-shadow: 0px 1px 2px 0px grey;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.catagory-card h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.catagory-card:hover{
+    background-color: white;
+}
+.catagory-card:hover h3{
+    color: #FF4061;
+}
+
+.categories-title h2{
+    font-weight: 800;
+}
+.btn-black{
+    background-color: #132634;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+}

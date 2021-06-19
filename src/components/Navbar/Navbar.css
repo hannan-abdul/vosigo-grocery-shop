@@ -1,0 +1,13 @@
+.navbar-section{
+    background-color: #DFE8EF !important;
+    padding-bottom: 10px;
+}
+.navbar-brand{
+    color: #FF4061 !important;
+    font-size: 35px !important;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+ul li a{
+    color: black !important;
+}

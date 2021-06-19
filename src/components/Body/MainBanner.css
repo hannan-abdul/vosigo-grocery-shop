@@ -1,0 +1,14 @@
+.banner-section{
+    background-color: #DFE8EF;
+}
+.banner-section h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.btn-red{
+    background-color: #FF4061;
+    color: white;
+    border: 0;
+    padding: 10px 25px;
+    border-radius: 20px;
+}

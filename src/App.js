@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import MainBanner from './components/Body/MainBanner';
+import FoodSectionDetail from './components/Body/FoodSection/FoodSectionDetail';
+import AboutVosico from './components/Body/About/AboutVosico';
+import CategoriesDetail from './components/Body/Categories/CategoriesDetail';
+import ProductCategory from './components/Body/ProductCategory/ProductCategory';
+import SupplyChain from './components/Body/SupplyChain/SupplyChain';
+import LatestNews from './components/Body/LatestNews/LatestNews';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar></Navbar>
+      <MainBanner></MainBanner>
+      <FoodSectionDetail></FoodSectionDetail>
+      <AboutVosico></AboutVosico>
+      <CategoriesDetail></CategoriesDetail>
+      <ProductCategory></ProductCategory>
+      <SupplyChain></SupplyChain>
+      <LatestNews></LatestNews>
+      <Footer></Footer>
     </div>
   );
 }

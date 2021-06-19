@@ -1,0 +1,16 @@
+.supply-chain-container{
+    background-color: #EDF0F5;
+    padding: 50px;
+}
+.supply-chain-container h2{
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+.supply-chain-container h1{
+    color: #FF4061;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.supply-chain-container .text-left p{
+    margin-bottom: 0;
+}
