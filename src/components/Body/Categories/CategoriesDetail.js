@@ -55,7 +55,7 @@ const CategoriesDetail = () => {
                     <h2>Healthy Life With <br/> Fresh Products</h2>
                 </div>
                 <div className="col-6">
-                    <button className="btn btn-black">EXPLORE ALL CATEGORIES</button>
+                    <button className="btn-black">EXPLORE ALL CATEGORIES</button>
                 </div>
             </div>
             <div className="d-flex justify-content-center text-center">

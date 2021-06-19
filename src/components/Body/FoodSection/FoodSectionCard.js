@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './FoodSection.css';
 
@@ -14,7 +16,7 @@ const FoodSectionCard = (props) => {
                         </div>
                         <div className="text-left">
                             <p>{description}</p>
-                            <button className='btn btn-custom'>{button}</button>
+                            <button className='btn btn-custom'>{button} <FontAwesomeIcon icon={faLongArrowAltRight} /></button>
                         </div>
                     </div>
                 </div>

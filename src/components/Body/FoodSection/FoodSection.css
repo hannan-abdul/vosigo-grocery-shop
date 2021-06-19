@@ -1,16 +1,27 @@
 .food-section-card{
     margin-bottom: 40px;
+    animation-duration: 0.3s;
+}
+.food-section-card h3{
+    font-weight: 800;
+}
+.food-section-card:hover h3{
+    color: #FF4061;
+}
+.food-section-card:hover .btn-custom{
+    color: #FF4061;
 }
 .card-fix-row{
     position: relative;
     height: 200px;
 }
 .card-fix{
+    box-shadow: 1px 1px 4px grey;
     position: absolute !important;
     bottom: 40%;
     right: 5%;
     background-color: white;
-    padding: 40px 50px 0;
+    padding: 40px 50px 20px;
 }
 .card-fix .btn-custom{
     font-weight: 700;

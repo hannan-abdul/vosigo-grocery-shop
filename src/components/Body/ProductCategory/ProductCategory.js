@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductImage from '../../../images/grape-juice.jpg';
 import ProductCategoryCard from './ProductCategoryCard';
+import './ProductCategory.css';
 
 const details = [
     {
@@ -32,10 +33,10 @@ const details = [
 
 const ProductCategory = () => {
     return (
-        <div className="d-flex justify-content-center text-center">
+        <div className="d-flex justify-content-center text-center latest-products">
             <div className="w-75 row text-center mt-5">
                 <p>LATEST PRODUCTS</p>
-                <h2>Why Freshqo Super Market Checkout Our Latest</h2>
+                <h2>Why Freshqo Super Market <br/> Checkout Our Latest</h2>
                 {
                     details.map(detail => <ProductCategoryCard detail={detail}></ProductCategoryCard>)
                 }

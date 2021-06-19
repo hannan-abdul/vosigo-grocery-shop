@@ -31,10 +31,10 @@ const SupplyChain = () => {
                             <p>Branches</p>
                         </div>
                     </div>
-                    <button>GET STARTED NOW</button>
+                    <button className="btn-black">GET STARTED NOW</button>
                 </div>
             </div>
-            <div className="row">
+            <div className="row align-items-center">
                 <div className="col-md-5">
                     <p>NEWSLETTER</p>
                     <h2>Subscribe to get the latest updates</h2>
@@ -43,8 +43,8 @@ const SupplyChain = () => {
                     <form action="">
                         <div className="input-group ">
                             <input type="text" className="form-control" placeholder="Email Address" aria-label="Email Address" />
-                            <span class="input-group-text">
-                                <button type='submit'>SUBSCRIBE</button>
+                            <span class="input-group-text btn-fix">
+                                <button className="btn-red" type='submit'>SUBSCRIBE</button>
                             </span>
                         </div>
                     </form>

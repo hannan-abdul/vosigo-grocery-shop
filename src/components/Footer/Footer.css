@@ -1,0 +1,20 @@
+.footer-section{
+    padding: 50px 0;
+}
+.social-list li{
+    padding-left: 20px;
+    color: white;
+}
+.social-list li .social{
+    color: white;
+}
+.btn-red{
+    background-color: #FF4061;
+    color: white;
+    border: 0;
+    padding: 10px 15px !important;
+    border-radius: 20px;
+}
+.input-group-text{
+    padding: 0 !important;
+}

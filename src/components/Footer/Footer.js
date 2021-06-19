@@ -1,50 +1,42 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookSquare, faGooglePlusSquare, faTwitterSquare, faYoutube } from '@fortawesome/free-brands-svg-icons';
-
+import './Footer.css';
+import { faEnvelope, faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     return (
-        <div className="footer-section" style={{ backgroundColor: 'black', color: 'white' }}>
+        <div className="footer-section" style={{ backgroundColor: '#282828', color: 'white' }}>
             <div className="container">
-                <div className="row">
+                <div className="row text-left">
                     <div className="col-md-4">
-                        <h6>Address</h6>
+                        <h6><FontAwesomeIcon icon={faMapMarkerAlt} /> Address</h6>
                         <p>123 New York City, USA</p>
                     </div>
                     <div className="col-md-4">
-                        <h6>Phone</h6>
+                        <h6><FontAwesomeIcon icon={faPhone} /> Phone</h6>
                         <p>Mobile: +1 985 659 5648</p>
                     </div>
                     <div className="col-md-4">
-                        <h6>Email</h6>
+                        <h6><FontAwesomeIcon icon={faEnvelope} /> Email</h6>
                         <p>support@gmail.com</p>
                     </div>
                 </div>
                 <hr />
-                <div className="row">
+                <div className="row text-left">
                     <div className="col-md-4">
                         <h6>Logo</h6>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, maiores?</p>
-                        <div className="row">
-                            <div className="col">
-                                <FontAwesomeIcon icon={faFacebookSquare} />
-                            </div>
-                            <div className="col">
-                                <FontAwesomeIcon icon={faTwitterSquare} />
-                            </div>
-                            <div className="col">
-                                <FontAwesomeIcon icon={faGooglePlusSquare} />
-                            </div>
-                            <div className="col">
-                                <FontAwesomeIcon icon={faYoutube} />
-                            </div>
-                        </div>
+                        <ul className="d-flex list-unstyled social-list">
+                            <li> <a href=""><FontAwesomeIcon className="social" icon={faFacebookSquare} /></a></li>
+                            <li> <a href=""><FontAwesomeIcon className="social" icon={faTwitterSquare} /></a></li>
+                            <li> <a href=""><FontAwesomeIcon className="social" icon={faGooglePlusSquare} /></a></li>
+                            <li> <a href=""><FontAwesomeIcon className="social" icon={faYoutube} /></a></li>
+                        </ul>
                     </div>
                     <div className="col-md-2">
                         <h6>Quick Link</h6>
-                        <ul>
+                        <ul className="list-unstyled">
                             <li>About Us</li>
                             <li>Delivery</li>
                             <li>Privacy</li>
@@ -54,7 +46,7 @@ const Footer = () => {
                     </div>
                     <div className="col-md-2">
                         <h6>Guide & Help</h6>
-                        <ul>
+                        <ul className="list-unstyled">
                             <li>About Us</li>
                             <li>Delivery</li>
                             <li>Privacy</li>
@@ -69,7 +61,7 @@ const Footer = () => {
                             <div className="input-group ">
                                 <input type="text" className="form-control" placeholder="Email Address" aria-label="Email Address" />
                                 <span class="input-group-text">
-                                    <button type='submit'>SUBSCRIBE</button>
+                                    <button className="btn-red" type='submit'>SUBSCRIBE</button>
                                 </span>
                             </div>
                         </form>

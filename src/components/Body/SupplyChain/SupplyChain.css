@@ -14,3 +14,22 @@
 .supply-chain-container .text-left p{
     margin-bottom: 0;
 }
+.btn-black{
+    background-color: #132634;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 20px 0;
+}
+.btn-red{
+    background-color: #FF4061;
+    color: white;
+    border: 0;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.btn-fix{
+    padding: 0 !important;
+    border: 0 !important;
+}

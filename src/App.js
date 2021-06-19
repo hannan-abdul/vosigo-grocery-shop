@@ -8,6 +8,7 @@ import ProductCategory from './components/Body/ProductCategory/ProductCategory';
 import SupplyChain from './components/Body/SupplyChain/SupplyChain';
 import LatestNews from './components/Body/LatestNews/LatestNews';
 import Footer from './components/Footer/Footer';
+import CarouselItem from './components/Body/CarouselItem/CarouselItem';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <AboutVosico></AboutVosico>
       <CategoriesDetail></CategoriesDetail>
       <ProductCategory></ProductCategory>
+      <CarouselItem></CarouselItem>
       <SupplyChain></SupplyChain>
       <LatestNews></LatestNews>
       <Footer></Footer>
