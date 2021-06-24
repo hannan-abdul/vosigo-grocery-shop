@@ -1,3 +1,10 @@
 .latest-products h2{
     font-weight: 800;
 }
+.food-card-fix{
+    box-shadow: 1px 2px 4px 0 gray;
+    animation-duration: 0.3s;
+}
+.food-card-fix:hover{
+    box-shadow: 1px 2px 12px 0 rgb(0, 0, 0);
+}

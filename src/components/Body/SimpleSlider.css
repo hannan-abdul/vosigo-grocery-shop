@@ -1,0 +1,20 @@
+.App{
+    text-align: center;
+}
+.carosol-fix{
+    margin-top: 50px !important;
+}
+.card{
+    width: 100%;
+    height: 200px;
+    background: rgb(245, 241, 241) !important;
+    color: #333;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0 !important;
+}
+.card p{
+    padding: 0 95px;
+}

@@ -6,8 +6,8 @@ const ProductCategoryCard = (props) => {
         <div className="col-md-4 food-section-card">
             <div className="container">
                 <div className="row">
-                    <div className="col card">
-                        <img src={image} alt="" />
+                    <div className="col food-card-fix">
+                        <img style={{width: '80%'}} src={image} alt="" />
                         <h6>{title}</h6>
                         <p>$ {Price}</p>
                     </div>

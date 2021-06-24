@@ -36,11 +36,13 @@ const ProductCategory = () => {
         <div className="d-flex justify-content-center text-center latest-products">
             <div className="w-75 row text-center mt-5">
                 <p>LATEST PRODUCTS</p>
-                <h2>Why Freshqo Super Market <br/> Checkout Our Latest</h2>
+                <h2>Why Freshqo Super Market <br /> Checkout Our Latest</h2>
                 {
                     details.map(detail => <ProductCategoryCard detail={detail}></ProductCategoryCard>)
                 }
-                <button>EXPLORE OUR PRODUCTS</button>
+                <div>
+                    <button className="btn-black">EXPLORE OUR PRODUCTS</button>
+                </div>
             </div>
         </div>
     );
